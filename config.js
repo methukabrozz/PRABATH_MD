@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER.split("94742734789")
-global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
+global.mongodb = process.env.MONGODB_URI || "mongodb://mongo:cifyclCwfLTDeMECqbtapFupVjervcYF@autorack.proxy.rlwy.net:45847"
 global.port= process.env.PORT || 5000
 global.email = 'sam@sec.live'
 global.github = 'https://github.com/prabathLK/PRABATH-MD'
